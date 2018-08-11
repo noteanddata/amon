@@ -13,6 +13,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Optional;
 
+
+/**
+ * http://www.linuxhowtos.org/System/procstat.htm
+ * http://man7.org/linux/man-pages/man5/proc.5.html
+ */
 public class CpuInfoParser {
     public static final String CPU_STAT_FILE = "/proc/stat";
     public static final String STAT_CPU = "cpu";
